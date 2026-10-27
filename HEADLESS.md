@@ -1,6 +1,6 @@
 # headless 构建（本 fork 的改动）
 
-> 本仓是 [iuroc/bilidown](https://github.com/iuroc/bilidown) 的 fork（`piaodbg/bilidowndown`）。
+> 上游是 [iuroc/bilidown](https://github.com/iuroc/bilidown)。本地 clone 的 origin 曾是第三方 fork `piaodbg/bilidowndown`（已改名 `upstream`，只读）；本 fork 的改动只进 `VasantLong/bilidowndown`。
 > 相对上游只加了一件事：**可无托盘、无 CGO 地作为后台 HTTP 服务运行**。上游 README 描述的是托盘玩法，别混用。
 
 ## 为什么需要
