@@ -1,6 +1,6 @@
 # headless 构建（本 fork 的改动）
 
-> 上游是 [iuroc/bilidown](https://github.com/iuroc/bilidown)。本地 clone 的 origin 曾是第三方 fork `piaodbg/bilidowndown`（已改名 `upstream`，只读）；本 fork 的改动只进 `VasantLong/bilidowndown`。
+> 上游是 [iuroc/bilidown](https://github.com/iuroc/bilidown)。第三方 fork `piaodbg/bilidowndown` 只作 `upstream`（只读）参照；本 fork 的改动只进**自己的远端** `origin` = `gitea:vasant/bilidowndown.git`（私有 Gitea，2026-10-28 建，含 `main` 与 `feat/headless-mode`）。GitHub 上的 `VasantLong/bilidowndown` 尚未创建——需要时按 `origin` 同样方式追加一个 remote 即可，不要往 `upstream` 推。
 > 相对上游只加了一件事：**可无托盘、无 CGO 地作为后台 HTTP 服务运行**。上游 README 描述的是托盘玩法，别混用。
 
 ## 为什么需要
